@@ -50,8 +50,70 @@ Demonstrar conhecimentos práticos em:
   - Controller
   - Service
   - Repository
-- Centralização do tratamento de erros com `@ControllerAdvice`
 
 ---
 
 ## 📡 Endpoints Principais
+
+- POST /auth/login
+- POST /auth/cadastro
+- PUT /auth/atualizar/role
+
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Java
+- Spring Boot
+- Spring Security
+- JWT
+- BCrypt
+- JPA / Hibernate
+- Maven
+
+---
+
+## ▶️ Como Executar o Projeto
+
+1. Clone este repositório
+2. Configure o banco de dados no `application.yml`
+3. Execute a aplicação
+4. Acesse a API em `http://localhost:8080`
+
+---
+
+## 📁 Estrutura do Projeto
+
+src/main/java
+├── controller
+├── service
+├── repository
+├── security
+├── dto
+├── entity
+├── projection
+├── exception
+└── util
+
+---
+
+## ✅ O que este projeto demonstra
+
+- Implementação correta de autenticação com JWT
+- Boas práticas de segurança no backend
+- Código organizado e de fácil manutenção
+- Base reutilizável para outros projetos
+- Conhecimento sólido de nível **Java Júnior** em Spring Security
+
+---
+
+## 📌 Observações Finais
+
+Este projeto foi desenvolvido com foco em **aprendizado prático** e **boas práticas de mercado**, sendo ideal como **projeto de portfólio para desenvolvedores Java Júnior**.
+
+---
+
+### 👩‍💻 Desenvolvido por
+**Bruna Prudencio**  
+Java Backend Developer
